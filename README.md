@@ -12,3 +12,5 @@ The business request for this data analyst project was an executive sales report
 To create the necessary data model for doing analysis and fulfilling the business needs defined in the user stories the following tables were extracted using SQL.
 One data source (sales budgets) were provided in Excel format and were connected in the data model in a later step of the process.
 Below are the SQL statements for cleansing and transforming necessary data.
+
+![calender](https://user-images.githubusercontent.com/91481737/219898872-bd145a4b-7b11-4366-9fa1-933a8b5e8903.PNG)
