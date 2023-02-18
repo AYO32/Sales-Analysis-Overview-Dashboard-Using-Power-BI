@@ -3,4 +3,6 @@
 This project is about an overview of dashboard of internet sales which also have a detailed overview of internet sales per customer and per product.
 The data was uploaded to MYSQL and DML(data manipulation) queries was used to sort out the required data which was saved as an excel file and Power BI was used for data visualization.  
 
-
+# Business Request & User Stories
+The business request for this data analyst project was an executive sales report for sales managers. Based on the request that was made from the business we following user stories were defined to fulfill delivery and ensure that acceptance criteria’s were maintained throughout the project.
+#	As a (role) | I want (request / demand) | So that I (user value) | Acceptance Criteria
