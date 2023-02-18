@@ -16,50 +16,5 @@ Below are the SQL statements for cleansing and transforming necessary data.
 ![calender](https://user-images.githubusercontent.com/91481737/219898872-bd145a4b-7b11-4366-9fa1-933a8b5e8903.PNG)
 
 # DIM Customers
-
--- Cleansed DIM_Products Table --
-SELECT 
-  p.[ProductKey], 
-  p.[ProductAlternateKey] AS ProductItemCode, 
-  --      ,[ProductSubcategoryKey], 
-  --      ,[WeightUnitMeasureCode]
-  --      ,[SizeUnitMeasureCode] 
-  p.[EnglishProductName] AS [Product Name], 
-  ps.EnglishProductSubcategoryName AS [Sub Category], -- Joined in from Sub Category Table
-  pc.EnglishProductCategoryName AS [Product Category], -- Joined in from Category Table
-  --      ,[SpanishProductName]
-  --      ,[FrenchProductName]
-  --      ,[StandardCost]
-  --      ,[FinishedGoodsFlag] 
-  p.[Color] AS [Product Color], 
-  --      ,[SafetyStockLevel]
-  --      ,[ReorderPoint]
-  --      ,[ListPrice] 
-  p.[Size] AS [Product Size], 
-  --      ,[SizeRange]
-  --      ,[Weight]
-  --      ,[DaysToManufacture]
-  p.[ProductLine] AS [Product Line], 
-  --     ,[DealerPrice]
-  --      ,[Class]
-  --      ,[Style] 
-  p.[ModelName] AS [Product Model Name], 
-  --      ,[LargePhoto]
-  p.[EnglishDescription] AS [Product Description], 
-  --      ,[FrenchDescription]
-  --      ,[ChineseDescription]
-  --      ,[ArabicDescription]
-  --      ,[HebrewDescription]
-  --      ,[ThaiDescription]
-  --      ,[GermanDescription]
-  --      ,[JapaneseDescription]
-  --      ,[TurkishDescription]
-  --      ,[StartDate], 
-  --      ,[EndDate], 
-  ISNULL (p.Status, 'Outdated') AS [Product Status] 
-FROM 
-  [AdventureWorksDW2019].[dbo].[DimProduct] as p
-  LEFT JOIN dbo.DimProductSubcategory AS ps ON ps.ProductSubcategoryKey = p.ProductSubcategoryKey 
-  LEFT JOIN dbo.DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey 
-order by 
-  p.ProductKey asc
+![Customer 1](https://user-images.githubusercontent.com/91481737/219899024-162492fa-d437-4d7b-9ab4-f1f245f0d347.PNG)
+![customer 2](https://user-images.githubusercontent.com/91481737/219899029-8d89f00a-7fae-4256-ba61-d44d006dfc04.PNG)
