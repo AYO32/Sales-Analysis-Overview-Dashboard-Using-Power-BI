@@ -22,3 +22,6 @@ Below are the SQL statements for cleansing and transforming necessary data.
 # Fact internet sales
 ![fact internet sales](https://user-images.githubusercontent.com/91481737/219899186-c7cb8064-1627-4e9d-a547-6bd8cd94ec65.PNG)
 ![fact internet sales 2](https://user-images.githubusercontent.com/91481737/219899197-c9da90e3-18da-407e-b0a6-e183641315fd.PNG)
+
+# Sales Management Dashboard
+The finished sales management dashboard with one page with works as a dashboard and overview, with two other pages focused on combining tables for necessary details and visualizations to show sales over time, per customers and per products.
