@@ -5,4 +5,5 @@ The data was uploaded to MYSQL and DML(data manipulation) queries was used to so
 
 # Business Request & User Stories
 The business request for this data analyst project was an executive sales report for sales managers. Based on the request that was made from the business we following user stories were defined to fulfill delivery and ensure that acceptance criteria’s were maintained throughout the project.
-#	As a (role) | I want (request / demand) | So that I (user value) | Acceptance Criteria
+As a (role) | I want (request / demand) | So that I (user value) | Acceptance Criteria
+-----------   ------------------------    ----------------------   --------------------
