@@ -18,3 +18,7 @@ Below are the SQL statements for cleansing and transforming necessary data.
 # DIM Customers
 ![Customer 1](https://user-images.githubusercontent.com/91481737/219899024-162492fa-d437-4d7b-9ab4-f1f245f0d347.PNG)
 ![customer 2](https://user-images.githubusercontent.com/91481737/219899029-8d89f00a-7fae-4256-ba61-d44d006dfc04.PNG)
+
+# Fact internet sales
+![fact internet sales](https://user-images.githubusercontent.com/91481737/219899186-c7cb8064-1627-4e9d-a547-6bd8cd94ec65.PNG)
+![fact internet sales 2](https://user-images.githubusercontent.com/91481737/219899197-c9da90e3-18da-407e-b0a6-e183641315fd.PNG)
